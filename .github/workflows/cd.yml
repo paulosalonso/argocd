@@ -11,6 +11,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Building package with Maven
+        run: mvn -B package -DskipTests
+
       - name: Build and Push docker image
         uses: docker/build-push-action@v1.1.0
         with:
