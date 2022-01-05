@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kindapp
+spec:
+  selector:
+    matchLabels:
+      app: kindapp
+  template:
+    metadata:
+      labels:
+        app: kindapp
+    spec:
+      containers:
+        - name: kindapp
+          image: paulosalonso/kind
+          ports:
+            - containerPort: 8080
+          imagePullPolicy: Always
