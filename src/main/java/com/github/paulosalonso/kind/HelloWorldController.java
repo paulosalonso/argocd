@@ -13,7 +13,7 @@ public class HelloWorldController {
   @GetMapping
   public DTO helloWorld() {
     return DTO.builder()
-        .message("Hello ArgoCD!")
+        .message("Hello World and ArgoCD!")
         .status("HEALTHY")
         .build();
   }
