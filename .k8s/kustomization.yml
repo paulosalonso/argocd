@@ -5,4 +5,4 @@ resources:
 - service.yml
 images:
 - name: kindapp
-  newName: paulosalonso/kindapp?a60386c1c106cac0b3e277fa07aaaee025d49461
+  newName: paulosalonso/kindapp?47815d51cdfaec9429a8e3e60a345426a05652fa
