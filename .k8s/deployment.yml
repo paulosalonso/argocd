@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: kindapp
-          image: paulosalonso/kind:latest
+          image: kindapp
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
