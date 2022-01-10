@@ -46,7 +46,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Deploy Action"
-          git commit -am "Change image tag to paulosalonso/kindapp?${{ github.sha }}"
+          git commit -am "Change image tag to paulosalonso/kindapp:${{ github.sha }}"
 
       - name: Push
         uses: ad-m/github-push-action@master
