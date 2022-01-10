@@ -39,7 +39,7 @@ jobs:
       - name: Update K8S
         run: |
           cd .k8s
-          kustomize edit set image kindapp=paulosalonso/kindapp?${{ github.sha }}
+          kustomize edit set image kindapp=paulosalonso/kindapp:${{ github.sha }}
           cat kustomization.yml
 
       - name: Commit
