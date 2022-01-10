@@ -6,4 +6,4 @@ resources:
 images:
 - name: kindapp
   newName: paulosalonso/kindapp
-  newTag: b363dc66addcb56b7792905016605e8c25f7c22a
+  newTag: 40010f2ab5530b2d2772813c0a47a3993761e574
