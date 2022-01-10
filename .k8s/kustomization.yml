@@ -4,6 +4,5 @@ resources:
 - deployment.yml
 - service.yml
 images:
-  - name: kindapp
-    newName: paulosalonso/kind
-    newTag: 1.0.0
+- name: kindapp
+  newName: paulosalonso/kindapp?a60386c1c106cac0b3e277fa07aaaee025d49461
